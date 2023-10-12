@@ -338,6 +338,10 @@ body {
     width: 25rem;
     height: 100vh;
     transition: 0,3s;
+    -webkit-transition: 0,3s;
+    -moz-transition: 0,3s;
+    -ms-transition: 0,3s;
+    -o-transition: 0,3s;
 }
 
 .navbar .navbar-nav.active {
@@ -368,11 +372,11 @@ body {
     flex-wrap: wrap;
 }
 
-.about .row .about-img {
-    height: 24rem;
-    object-fit: cover;
-    object-position: center;
-    margin-left: 3rem;
+.about .row .about-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .about .row .content {
@@ -414,4 +418,24 @@ body {
     html {
         font-size: 55%;
     }
+
+
+.about .row .about-img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 0.5rem;
+}
+
+.about .row .about-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
 }
