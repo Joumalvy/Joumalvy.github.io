@@ -210,19 +210,19 @@ body {
 }
 
 .about .row .content h3 {
-    font-size: 5rem;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+    margin-bottom: 0;
 }
 
 .about .row .content p {
     margin-bottom: 0.8rem;
-    font-size: 3rem;
     font-weight: 100;
     line-height: 1.6;
 }
 
 .about .row .content p span {
     font-style: italic;
+    font-size: 3rem;
 }
 
 /* Sosmed Section */
